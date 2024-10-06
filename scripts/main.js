@@ -25422,7 +25422,7 @@ var Stats = function() {
             }
         })
     }), define("text!html/footer.html", [], function() {
-        return '<div class="settings">\n<input type="checkbox" id="auto-scroll" class="checkbox"/><label for="auto-scroll">Auto Scroll</label>\n    <input type="checkbox" id="full-screen" class="checkbox"/><label id="full-screen-label" for="full-screen">Full Screen</label>\n</div>\n<div class="logo">\n</div>\n'
+        return '<div class="settings">\n<input type="checkbox" id="auto-scroll" class="checkbox"/><label for="auto-scroll">Auto Scroll</label>\n    </div>\n<div class="logo">\n</div>\n'
     }), define("views/FooterView", ["jquery", "underscore", "backbone", "audio/Thump", "events/appEvents", "config", "text!html/footer.html"], function(a, b, c, d, e, f, g) {
         return c.View.extend({
             initialize: function() {
