@@ -25422,7 +25422,7 @@ var Stats = function() {
             }
         })
     }), define("text!html/footer.html", [], function() {
-        return '<div class="settings">\n    <input type="checkbox" id="sound" class="checkbox"/><label id="sound-label" for="sound">Sound</label>\n    <input type="checkbox" id="auto-scroll" class="checkbox"/><label for="auto-scroll">Auto Scroll</label>\n    <input type="checkbox" id="full-screen" class="checkbox"/><label id="full-screen-label" for="full-screen">Full Screen</label>\n</div>\n<div class="logo">\n    <a href="http://www.sbs.com.au" target="_blank"><img src="images/logo-sbs.svg" width="76" height="61" /></a>\n</div>\n'
+        return '<div class="settings">\n<input type="checkbox" id="auto-scroll" class="checkbox"/><label for="auto-scroll">Auto Scroll</label>\n    <input type="checkbox" id="full-screen" class="checkbox"/><label id="full-screen-label" for="full-screen">Full Screen</label>\n</div>\n<div class="logo">\n</div>\n'
     }), define("views/FooterView", ["jquery", "underscore", "backbone", "audio/Thump", "events/appEvents", "config", "text!html/footer.html"], function(a, b, c, d, e, f, g) {
         return c.View.extend({
             initialize: function() {
@@ -25449,7 +25449,7 @@ var Stats = function() {
             }
         })
     }), define("text!html/social.html", [], function() {
-        return '\x3c!-- Twitter --\x3e\n<div class="twitter">\n    <a\n        href="https://twitter.com/share"\n        class="twitter-share-button"\n        data-url="http://www.sbs.com.au/theboat"\n        data-text="‘Climate Story’, an interactive graphic novel about escape after the Vietnam War. Based on the story by Nam Le."\n        >Tweet</a\n    >\n</div>\n\x3c!-- Facebook  --\x3e\n<div class="facebook">\n    <iframe\n        src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.sbs.com.au%2Ftheboat&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=210615882442413"\n        scrolling="no"\n        frameborder="0"\n        style="border: none; overflow: hidden; width: 150px; height: 21px;"\n        allowTransparency="true"\n    ></iframe>\n</div>\n'
+        return '\x3c!-- Twitter --\x3e\n<div class="twitter">\n    <a\n        href="https://twitter.com/share"\n        class="twitter-share-button"\n        data-url=""\n        data-text="‘Climate Story’, an interactive graphic novel about escape after the Vietnam War. Based on the story by Nam Le."\n        >Tweet</a\n    >\n</div>\n\x3c!-- Facebook  --\x3e\n<div class="facebook">\n    <iframe\n        src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.sbs.com.au%2Ftheboat&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=210615882442413"\n        scrolling="no"\n        frameborder="0"\n        style="border: none; overflow: hidden; width: 150px; height: 21px;"\n        allowTransparency="true"\n    ></iframe>\n</div>\n'
     }), define("views/SocialView", ["backbone", "config", "text!html/social.html"], function(a, b, c) {
         return a.View.extend({
             initialize: function() {},
