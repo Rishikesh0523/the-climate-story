@@ -24946,7 +24946,7 @@ var Stats = function() {
                         call: "sendCustomEvent",
                         params: ["chapter/1"]
                     }]
-                }), this.comic.wrap(1200), b = new m("9col", "2tier", ['<div class="display-text medium light">', "<p>A pale blue dot, home to many of us,and what not resides here beyond human’s comprehension.</p>", "<p>Here we are diving into the life of us, everyone, that has transitioned toward the peril of our sweet home, THE EARTH</p>", "<p>‘THE EARTH’</p>", "</div>"]), this.comic.add(b, {
+                }), this.comic.wrap(1200), b = new m("9col", "2tier", ['<div class="display-text medium light">', "<p>A pale blue dot, home to many of us,and what not resides here beyond human’s comprehension.</p>", "<p>Here we are diving into the life of us, everyone, that has transitioned toward the peril of our sweet home.</p>", "<p>‘THE EARTH’</p>", "</div>"]), this.comic.add(b, {
                     center: !0
                 }), this.comic.wrap(1200), b = new wa("9col", "1tier", '<p class="display-text small">The idea of life is simply beautiful.</p>'), this.comic.add(b, {
                     center: !0
@@ -25112,10 +25112,7 @@ var Stats = function() {
                         startValue: 1,
                         endValue: 0
                     }]
-                }),this.comic.wrap(500), b = new m("6col", "1tier", '<p class="frame-external-text small dark">Mai submitted, and when she closed her eyes, she found the hum of the phantom voices almost lulling.</p>'), this.comic.add(b), this.comic.wrap(95), a = new k("6col", "1tier", "images/013-021/06.png"), this.comic.add(a), a = new k("3col", "1tier", "images/013-021/07.png"), this.comic.add(a), b = new m("3col", "1tier", '<div class="frame-internal-text small dark"><p>Almost like a sea wind bearing men&rsquo;s voices up from the wharf.<br/><br/>At times she thought she almost recognised a voice.</p></div>'), this.comic.add(b), this.comic.wrap(0), b = new n("6col", "1tier", '<div class="bk-medium-nt-02"><div class="dialog"><p>Try to sleep.</p></div></div>', {
-                    offsetX: 450,
-                    offsetY: 290
-                }), this.comic.add(b, {
+                }),this.comic.wrap(500), b = new m("6col", "1tier", '<p class="frame-external-text small dark">.</p>'), this.comic.add(b), this.comic.wrap(95), a = new k("6col", "1tier", "images/013-021/06.png"), this.comic.add(a), a = new k("3col", "1tier", "images/013-021/07.png"), this.comic.add(a), b = new m("3col", "1tier", '<div class="frame-internal-text small dark"><p><br/><br/></p></div>'), this.comic.add(b, {
                     triggers: [n.defaultTrigger]
                 }), this.comic.wrap(1e3), this.comic.createAnchor("chapter2"), Ba = new h("chapterMotif"), c = new ya(1), this.comic.add(c, {
                     center: !0,
@@ -25275,7 +25272,7 @@ var Stats = function() {
                     center: !0
                 }), this.comic.wrap(410), e = new j("2col"), this.comic.add(e), b = new m("4col", "1tier", '<p class="frame-external-text small light">“This aqueous vapour is a blanket more necessary to the vegetable life of England than clothing it to the man”</p>'), this.comic.add(b), b = new m("4col", "1tier", '<p class="frame-external-text small light">Swedish chemist Svante Arrhenius concludes that [industrial age coal burning will enhance the natural greenhouse effect]</p>'), this.comic.add(b), this.comic.wrap(130), e = new j("2col"), this.comic.add(e), a = new k("4col", "1tier", "images/034-041/03-a.png"), this.comic.add(a), a = new k("4col", "1tier", "images/034-041/03-b.png"), this.comic.add(a), this.comic.wrap(800), b = new m("4col", "1tier", ['<div class="frame-internal-text small light">', "<p>", "Arrhenius predicted that doubling CO₂ levels in the atmosphere could raise Earth's temperature by a few degrees Celsius, a prediction that aligns with modern climate models.", "</p>", "</div>"]), this.comic.add(b), a = new k("4col", "1tier", "images/034-041/04.png"), this.comic.add(a), b = new m("4col", "1tier", ['<div class="frame-internal-text small light">', "<p>", " At the time, he even suggested this warming might benefit future generations by making colder regions more habitable.", "</p>", "</div>"]), this.comic.add(b), this.comic.wrap(800), e = new j("2col", "1tier"), this.comic.add(e), a = new k("4col", "1tier", "images/034-041/05.png"), this.comic.add(a), b = new m("6col", "1tier", ['<div class="frame-internal-text small light">', "<p>", "Together, these milestones—from Fourier’s discovery of the greenhouse effect to Arrhenius’s early warnings about fossil fuels—lay the foundation for our understanding of climate change,even highlighting how human progress and industrialization have long-term consequences for the planet's climate.", "</p>", "</div>"]), this.comic.add(b, {
                     triggers: [n.defaultTrigger]
-                }), this.comic.wrap(0), a = new k("4col", "1tier", "images/042-047/14.png"), this.comic.add(a), a = new k("8col", "1tier", "images/042-047/15.png"), this.comic.add(a), this.comic.wrap(1100), this.comic.createAnchor("chapter4"), Ba = new h("engine");
+                }), this.comic.wrap(500), a = new k("4col", "1tier", "images/042-047/14.png"), this.comic.add(a), a = new k("8col", "1tier", "images/042-047/15.png"), this.comic.add(a), this.comic.wrap(1100), this.comic.createAnchor("chapter4"), Ba = new h("engine");
                 var Na = new h("chapterMotif");
                 c = new ya(3), this.comic.add(c, {
                     center: !0,
